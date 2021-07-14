@@ -1,0 +1,39 @@
+.course {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.course > img {
+    width: 50vw;
+    height: 50vh;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.course_info  {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.course_info > h1 {
+    font-size: 2rem;
+    color: #373A3C;
+}
+
+.course_info > h4 {
+    color: #8A8A8A;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    font-size: 1.3rem;
+}
+
+.course_info > p {
+    color: #4C4E50;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    border-bottom: 1px solid rgb(192, 187, 187);
+    cursor: pointer;
+}
+
+.card_left {
+    padding-right: 20px;
+}
+
+.card_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+  font-weight: 445;
+  font-size: 1.7rem;
+  color: #212121;
+}
+
+.description {
+  margin-top: 8px;
+  color: gray;
+  font-size: 1.05rem;
+}
+
+.rating {
+  margin: 10px 0; 
+  font-size: 1.5rem !important;
+}
+
+.students {
+   margin-top: 5px;
+   font-size: 1.2rem;
+  font-weight: 500;
+
+}
+
+
+
+
+

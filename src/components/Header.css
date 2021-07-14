@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 15px 30px;
+    border-bottom: 1px solid gray;
+    position: sticky;
+    z-index: 100;
+ 
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.5;
+}
+
+.header_title {
+    color: #0156D3;
+    font-size: 2.5rem;
+}
+
+.header_explore_btn {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+    color: white !important;
+    font-weight: 900 !important;
+    background-color: #0156D3 !important ;
+    text-transform: capitalize !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    font-size: 1.05rem !important;
+}
+
+.header_search_box {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    border: 2px solid black;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header_search_box > input {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline-style: none;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.search_btn {
+    background-color: #0156D3 !important ;
+    color: white !important;
+    height: 100%;
+    font-size: 1.1rem !important;
+}
+
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0.4;
+    color: rgb(32, 31, 31);
+}
+
+.header_right a > h3, login {
+    color: rgb(32, 31, 31);
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 0.9rem;
+}
+
+.header_right a > h3:hover {
+    color: blue;
+    text-decoration: underline;
+
+}
+
+.login:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+
+.header_right_end {
+    display: flex;
+    align-items: center;
+}
+
